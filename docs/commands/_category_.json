@@ -1,0 +1,8 @@
+{
+  "label": "Commands",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "Commands relevant to the Wake container build orchestration system"
+  }
+}
