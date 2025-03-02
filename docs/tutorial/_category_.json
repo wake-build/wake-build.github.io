@@ -1,8 +1,8 @@
 {
   "label": "Tutorial",
-  "position": 2,
+  "position": 3,
   "link": {
     "type": "generated-index",
-    "description": "Tutorial for managing a multi-container system with Wake"
+    "description": "Tutorial for managing a basic multi-container project with Wake"
   }
 }

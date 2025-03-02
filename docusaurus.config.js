@@ -16,6 +16,7 @@ const config = {
 
   url: 'https://wake-build.github.io',
   baseUrl: '/',
+  trailingSlash: false,
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -64,7 +65,7 @@ const config = {
     ({
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'Wake Docs',
+        title: 'Wake',
         logo: {
           alt: 'Wake Logo',
           src: 'img/logo.svg',
@@ -74,11 +75,11 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Docs',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/wake-build/docs',
+            href: 'https://github.com/wake-build/wake-build.github.io',
             label: 'GitHub',
             position: 'right',
           },
@@ -92,11 +93,11 @@ const config = {
             items: [
               {
                 label: 'Tutorial',
-                to: '/docs/intro',
+                to: '/docs/category/tutorial',
               },
               {
                 label: 'Commands',
-                to: '/docs/category/commands',
+                to: '/docs/category/cli',
               },
             ],
           },
