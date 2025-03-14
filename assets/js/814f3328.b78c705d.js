@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkwake_docs=self.webpackChunkwake_docs||[]).push([[472],{5513:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Introducing... Wake","permalink":"/blog/introducing-wake","unlisted":false,"date":"2025-03-02T00:00:00.000Z"}]}')}}]);
