@@ -68,7 +68,7 @@ const config = {
         title: 'Wake',
         logo: {
           alt: 'Wake Logo',
-          src: 'img/logo.svg',
+          src: 'img/logo.png',
         },
         items: [
           {

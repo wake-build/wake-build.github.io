@@ -25,7 +25,7 @@ const FeatureList = [
     title: 'Push to Any Registry',
     description: (
       <>
-        The `wake tag` and `wake push` commands allow you to push select images to
+        Wake comes with tag and push commands that allow you to store select images in
         a registry of your choice.
       </>
     ),
