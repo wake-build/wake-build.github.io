@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkwake_docs=self.webpackChunkwake_docs||[]).push([[947],{6600:e=>{e.exports=JSON.parse('{"authors":[{"name":"Paul Spencer","title":"Creator, Wake","url":"https://github.com/spenpw","page":{"permalink":"/blog/authors/spenpw"},"socials":{"github":"https://github.com/spenpw"},"imageURL":"https://github.com/spenpw.png","key":"spenpw","count":1}]}')}}]);
