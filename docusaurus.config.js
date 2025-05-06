@@ -115,7 +115,7 @@ const config = {
             ],
           },
         ],
-        copyright: `© ${new Date().getFullYear()} Wake. Built with Docusaurus.`,
+        copyright: `©${new Date().getFullYear()} Wake<br>Branding courtesy of <a href="https://vivspencer.com/">Vivian Spencer</a>`,
       },
       prism: {
         theme: prismThemes.github,
