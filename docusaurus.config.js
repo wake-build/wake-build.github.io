@@ -12,7 +12,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 const config = {
   title: 'Wake Docs',
   tagline: 'Documentation for the Wake build orchestration system',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/logo.svg',
 
   url: 'https://wake-build.github.io',
   baseUrl: '/',
