@@ -1,7 +1,7 @@
 ---
 slug: introducing-wake
 title: Introducing... Wake
-authors: pwablito
+authors: spenpw
 tags: [intro]
 ---
 
