@@ -4,10 +4,20 @@
         <title>Wake Docs Blog</title>
         <link>https://wake-build.github.io/blog</link>
         <description>Wake Docs Blog</description>
-        <lastBuildDate>Sun, 02 Mar 2025 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 20 Aug 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Wake vs Docker Buildx Bake]]></title>
+            <link>https://wake-build.github.io/blog/wake-vs-bake</link>
+            <guid>https://wake-build.github.io/blog/wake-vs-bake</guid>
+            <pubDate>Wed, 20 Aug 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[The Docker Buildx project has produced a tool very similar to Wake called "Bake". IT is not only similar in name, but also in function. Overall, I have been very impressed with Bake, but it is missing a few things that were some of the key motivation behind building Wake.]]></description>
+            <content:encoded><![CDATA[<p>The Docker Buildx project has produced a tool very similar to Wake called "Bake". IT is not only similar in name, but also in function. Overall, I have been very impressed with Bake, but it is missing a few things that were some of the key motivation behind building Wake.</p>
+<p>First, Bake lacks the ability to share layers between multiple <em>separate</em> dockerfiles in a consistent manner.</p>]]></content:encoded>
+            <category>Intro</category>
+        </item>
         <item>
             <title><![CDATA[Introducing... Wake]]></title>
             <link>https://wake-build.github.io/blog/introducing-wake</link>
@@ -15,7 +25,7 @@
             <pubDate>Sun, 02 Mar 2025 00:00:00 GMT</pubDate>
             <description><![CDATA[Now introducing... the Wake project! Wake is a system for managing containers in projects]]></description>
             <content:encoded><![CDATA[<p>Now introducing... the Wake project! Wake is a system for managing containers in projects
-that have multiple images to build, pull, and push.</p>
+that have multiple images to build, tag, push, and pull.</p>
 <p>TODO fill the rest of this out...</p>]]></content:encoded>
             <category>Intro</category>
         </item>

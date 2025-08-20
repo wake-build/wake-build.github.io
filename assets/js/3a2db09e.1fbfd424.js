@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkwake_docs=self.webpackChunkwake_docs||[]).push([[121],{8070:e=>{e.exports=JSON.parse('{"tags":[{"label":"Intro","permalink":"/blog/tags/intro","description":"Introduction to the project","count":1}]}')}}]);
