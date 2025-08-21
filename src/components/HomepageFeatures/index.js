@@ -4,7 +4,7 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Simple, Declarative Configuration',
+    title: '📝 Simple, Declarative Configuration',
     description: (
       <>
         Wake uses a simple JSON configuration file with just
@@ -13,7 +13,7 @@ const FeatureList = [
     ),
   },
   {
-    title: 'Optimize Build Process',
+    title: '⚡ Optimize Build Process',
     description: (
       <>
         When building images, Wake carefully manages user-defined dependencies to
@@ -22,7 +22,7 @@ const FeatureList = [
     ),
   },
   {
-    title: 'Push to Any Registry',
+    title: '🚀 Push to Any Registry',
     description: (
       <>
         Wake comes with tag and push commands that allow you to store select images in

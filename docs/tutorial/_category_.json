@@ -1,8 +1,8 @@
 {
-  "label": "Tutorial",
+  "label": "📚 Tutorial",
   "position": 3,
   "link": {
     "type": "generated-index",
-    "description": "Tutorial for managing a basic multi-container project with Wake"
+    "description": "Complete step-by-step tutorial for building a multi-service application with Wake. Learn dependency management, intelligent build orchestration, and advanced container workflows through hands-on examples."
   }
 }

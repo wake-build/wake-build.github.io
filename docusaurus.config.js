@@ -72,6 +72,11 @@ const config = {
         },
         items: [
           {
+            to: '/docs/quick-start',
+            position: 'left',
+            label: 'Quick Start',
+          },
+          {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
@@ -93,11 +98,11 @@ const config = {
             items: [
               {
                 label: 'Tutorial',
-                to: '/docs/category/tutorial',
+                to: '/docs/category/-tutorial',
               },
               {
                 label: 'Commands',
-                to: '/docs/category/cli',
+                to: '/docs/category/-cli-reference',
               },
             ],
           },

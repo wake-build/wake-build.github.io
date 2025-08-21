@@ -14,10 +14,75 @@
   .heroBanner {
     padding: 2rem;
   }
+  
+  .buttons {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0.5rem;
+  }
+  
+  .buttons .button {
+    margin: 0.25rem 0;
+    width: 100%;
+    max-width: 300px;
+    align-self: center;
+  }
 }
 
 .buttons {
   display: flex;
   align-items: center;
   justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+}
+
+.buttons .button {
+  margin: 0.5rem;
+  min-width: 160px;
+}
+
+/* Custom hero button styles - all white */
+.heroButtonPrimary,
+.heroButtonSecondary,
+.heroButtonOutline {
+  background-color: #ffffff !important;
+  color: #0A7EC1 !important;
+  border: 2px solid #ffffff !important;
+  font-weight: 600 !important;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15) !important;
+  transition: all 0.3s ease !important;
+}
+
+.heroButtonPrimary:hover,
+.heroButtonSecondary:hover,
+.heroButtonOutline:hover {
+  background-color: #f8f9fa !important;
+  color: #0A7EC1 !important;
+  border-color: #ffffff !important;
+  transform: translateY(-2px) !important;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2) !important;
+  text-decoration: none !important;
+}
+
+.quickDemo {
+  margin-top: 1rem;
+}
+
+.quickDemo code {
+  background: rgba(255, 255, 255, 0.2);
+  padding: 0.4rem 0.8rem;
+  border-radius: 6px;
+  font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', monospace;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(10px);
+  color: #ffffff;
+  font-weight: 500;
+}
+
+/* Dark mode adjustments */
+[data-theme='dark'] .quickDemo code {
+  background: rgba(255, 255, 255, 0.15);
+  border-color: rgba(255, 255, 255, 0.2);
 }
