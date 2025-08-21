@@ -6,7 +6,7 @@ tags: [intro]
 ---
 
 Now introducing... the Wake project! Wake is a system for managing containers in projects
-that have multiple images to build, pull, and push.
+that have multiple images to build, tag, push, and pull.
 
 <!-- truncate -->
 
